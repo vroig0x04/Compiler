@@ -1,0 +1,159 @@
+Simbolo 'a' añadido en nivel 0
+Simbolo 'flag' añadido en nivel 0
+Simbolo 'c' añadido en nivel 0
+Simbolo 'msg' añadido en nivel 0
+Simbolo 'suma' añadido en nivel 0
+Simbolo 'z' añadido en nivel 1
+Simbolo 'b' añadido en nivel 1
+Simbolo 'r' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: r | Nivel: 1 | Tipo: VAR(enter)
+ID: b | Nivel: 1 | Tipo: ARG(enter)
+ID: z | Nivel: 1 | Tipo: ARG(enter)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: msg | Nivel: 0 | Tipo: VAR(cadena)
+ID: c | Nivel: 0 | Tipo: VAR(caracter)
+ID: flag | Nivel: 0 | Tipo: VAR(boolea)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+----------------------------------
+Simbolo 'max' añadido en nivel 0
+Simbolo 'x' añadido en nivel 1
+Simbolo 'y' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: y | Nivel: 1 | Tipo: ARG(enter)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: msg | Nivel: 0 | Tipo: VAR(cadena)
+ID: c | Nivel: 0 | Tipo: VAR(caracter)
+ID: x | Nivel: 1 | Tipo: ARG(enter)
+ID: flag | Nivel: 0 | Tipo: VAR(boolea)
+ID: max | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+----------------------------------
+Simbolo 'esPositiu' añadido en nivel 0
+Simbolo 'f' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: f | Nivel: 1 | Tipo: ARG(enter)
+ID: esPositiu | Nivel: 0 | Tipo: PROC(void)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: msg | Nivel: 0 | Tipo: VAR(cadena)
+ID: c | Nivel: 0 | Tipo: VAR(caracter)
+ID: flag | Nivel: 0 | Tipo: VAR(boolea)
+ID: max | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+----------------------------------
+Simbolo 'provaBucles' añadido en nivel 0
+Simbolo 'i' añadido en nivel 1
+Simbolo 'j' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: j | Nivel: 1 | Tipo: VAR(enter)
+ID: i | Nivel: 1 | Tipo: VAR(enter)
+ID: provaBucles | Nivel: 0 | Tipo: PROC(void)
+ID: esPositiu | Nivel: 0 | Tipo: PROC(void)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: msg | Nivel: 0 | Tipo: VAR(cadena)
+ID: c | Nivel: 0 | Tipo: VAR(caracter)
+ID: flag | Nivel: 0 | Tipo: VAR(boolea)
+ID: max | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+----------------------------------
+Simbolo 'provaOperacions' añadido en nivel 0
+Simbolo 'x' añadido en nivel 1
+Simbolo 'y' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: y | Nivel: 1 | Tipo: VAR(enter)
+ID: provaBucles | Nivel: 0 | Tipo: PROC(void)
+ID: esPositiu | Nivel: 0 | Tipo: PROC(void)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: msg | Nivel: 0 | Tipo: VAR(cadena)
+ID: c | Nivel: 0 | Tipo: VAR(caracter)
+ID: x | Nivel: 1 | Tipo: VAR(enter)
+ID: provaOperacions | Nivel: 0 | Tipo: PROC(void)
+ID: flag | Nivel: 0 | Tipo: VAR(boolea)
+ID: max | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+----------------------------------
+Simbolo 'provaBoolean' añadido en nivel 0
+Simbolo 'r' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: r | Nivel: 1 | Tipo: VAR(boolea)
+ID: provaBoolean | Nivel: 0 | Tipo: PROC(void)
+ID: provaBucles | Nivel: 0 | Tipo: PROC(void)
+ID: esPositiu | Nivel: 0 | Tipo: PROC(void)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: msg | Nivel: 0 | Tipo: VAR(cadena)
+ID: c | Nivel: 0 | Tipo: VAR(caracter)
+ID: provaOperacions | Nivel: 0 | Tipo: PROC(void)
+ID: flag | Nivel: 0 | Tipo: VAR(boolea)
+ID: max | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+----------------------------------
+Simbolo 'provaIO' añadido en nivel 0
+Simbolo 'x' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: provaIO | Nivel: 0 | Tipo: PROC(void)
+ID: provaBoolean | Nivel: 0 | Tipo: PROC(void)
+ID: provaBucles | Nivel: 0 | Tipo: PROC(void)
+ID: esPositiu | Nivel: 0 | Tipo: PROC(void)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: msg | Nivel: 0 | Tipo: VAR(cadena)
+ID: c | Nivel: 0 | Tipo: VAR(caracter)
+ID: x | Nivel: 1 | Tipo: VAR(enter)
+ID: provaOperacions | Nivel: 0 | Tipo: PROC(void)
+ID: flag | Nivel: 0 | Tipo: VAR(boolea)
+ID: max | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+----------------------------------
+Simbolo 'provaCast' añadido en nivel 0
+Simbolo 'x' añadido en nivel 1
+Simbolo 'd' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: d | Nivel: 1 | Tipo: VAR(caracter)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+ID: max | Nivel: 0 | Tipo: PROC(void)
+ID: flag | Nivel: 0 | Tipo: VAR(boolea)
+ID: c | Nivel: 0 | Tipo: VAR(caracter)
+ID: msg | Nivel: 0 | Tipo: VAR(cadena)
+ID: esPositiu | Nivel: 0 | Tipo: PROC(void)
+ID: provaBucles | Nivel: 0 | Tipo: PROC(void)
+ID: provaOperacions | Nivel: 0 | Tipo: PROC(void)
+ID: provaBoolean | Nivel: 0 | Tipo: PROC(void)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: provaIO | Nivel: 0 | Tipo: PROC(void)
+ID: x | Nivel: 1 | Tipo: VAR(enter)
+ID: provaCast | Nivel: 0 | Tipo: PROC(void)
+----------------------------------
+Simbolo 'main' añadido en nivel 0
+Simbolo 'x' añadido en nivel 1
+Simbolo 'y' añadido en nivel 1
+Simbolo 'z' añadido en nivel 1
+Simbolo 'ok' añadido en nivel 1
+Simbolo 't' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: t | Nivel: 1 | Tipo: VAR(tupla)
+ID: z | Nivel: 1 | Tipo: VAR(enter)
+ID: y | Nivel: 1 | Tipo: VAR(enter)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+ID: max | Nivel: 0 | Tipo: PROC(void)
+ID: flag | Nivel: 0 | Tipo: VAR(boolea)
+ID: c | Nivel: 0 | Tipo: VAR(caracter)
+ID: msg | Nivel: 0 | Tipo: VAR(cadena)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+ID: esPositiu | Nivel: 0 | Tipo: PROC(void)
+ID: provaBucles | Nivel: 0 | Tipo: PROC(void)
+ID: ok | Nivel: 1 | Tipo: VAR(boolea)
+ID: provaOperacions | Nivel: 0 | Tipo: PROC(void)
+ID: provaBoolean | Nivel: 0 | Tipo: PROC(void)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: provaIO | Nivel: 0 | Tipo: PROC(void)
+ID: x | Nivel: 1 | Tipo: VAR(enter)
+ID: provaCast | Nivel: 0 | Tipo: PROC(void)
+----------------------------------

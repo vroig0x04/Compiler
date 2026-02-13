@@ -1,0 +1,23 @@
+funcio main() ç
+    `` 1. Declaracio de tupla de enters
+    tupla<enter> punto;
+    punto[0] = 5;
+    punto[1] = 10;
+    
+    imprimeix(punto[0]);
+    imprimeix(punto[1]);
+    
+    `` 2. Tupla de cadenes
+    tupla<cadena> nombres;
+    nombres[0] = "Ana";
+    nombres[1] = "Bob";
+    
+    imprimeix(nombres[0]);
+    imprimeix(nombres[1]);
+    
+    `` 3. Assignacio entre tuples
+    tupla<enter> p2;
+    p2 = punto;
+
+    imprimeix(p2[0]);
+ç

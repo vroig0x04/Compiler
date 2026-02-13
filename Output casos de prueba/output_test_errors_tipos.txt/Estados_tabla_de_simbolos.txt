@@ -1,0 +1,50 @@
+Simbolo 'main' añadido en nivel 0
+Simbolo 'i' añadido en nivel 1
+Simbolo 'b' añadido en nivel 1
+Simbolo 's' añadido en nivel 1
+Simbolo 'res1' añadido en nivel 1
+Simbolo 'res2' añadido en nivel 1
+Simbolo 'res3' añadido en nivel 1
+Simbolo 'bool1' añadido en nivel 1
+Simbolo 'bool2' añadido en nivel 1
+Simbolo 'bool3' añadido en nivel 1
+Simbolo 'rel1' añadido en nivel 1
+Simbolo 'rel2' añadido en nivel 1
+Simbolo 't' añadido en nivel 1
+Simbolo 't2' añadido en nivel 1
+Simbolo 'ret' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: t2 | Nivel: 1 | Tipo: VAR(tupla)
+ID: bool1 | Nivel: 1 | Tipo: VAR(boolea)
+ID: b | Nivel: 1 | Tipo: VAR(boolea)
+ID: t | Nivel: 1 | Tipo: VAR(tupla)
+ID: ret | Nivel: 1 | Tipo: VAR(boolea)
+ID: s | Nivel: 1 | Tipo: VAR(cadena)
+ID: res2 | Nivel: 1 | Tipo: VAR(enter)
+ID: res3 | Nivel: 1 | Tipo: VAR(enter)
+ID: res1 | Nivel: 1 | Tipo: VAR(enter)
+ID: bool2 | Nivel: 1 | Tipo: VAR(boolea)
+ID: bool3 | Nivel: 1 | Tipo: VAR(boolea)
+ID: rel1 | Nivel: 1 | Tipo: VAR(boolea)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+ID: i | Nivel: 1 | Tipo: VAR(enter)
+ID: rel2 | Nivel: 1 | Tipo: VAR(boolea)
+----------------------------------
+Simbolo 'suma' añadido en nivel 0
+Simbolo 'a' añadido en nivel 1
+Simbolo 'b' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: b | Nivel: 1 | Tipo: ARG(enter)
+ID: a | Nivel: 1 | Tipo: ARG(enter)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+----------------------------------
+Simbolo 'funcioRetornaEnter' añadido en nivel 0
+
+--- Estado TD (Nivel 1) ---
+ID: funcioRetornaEnter | Nivel: 0 | Tipo: PROC(void)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+----------------------------------

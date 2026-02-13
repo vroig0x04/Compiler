@@ -1,0 +1,14 @@
+=== Iniciant l'anàlisi ===
+
+=== Anàlisi sintàctica completada amb èxit ===
+Código de tres direcciones guardado en: codigo_tres_dir.txt
+Codi optimitzat guardat a: codigo_optimizado.txt
+=== Compilación de código x86-64 ===
+\n=== COMPILANDO... ===
+    Compilación OK
+\n=== LINKEANDO... ===
+    Link OK
+\n=== EJECUTANDO... ===
+7
+123456
+123456

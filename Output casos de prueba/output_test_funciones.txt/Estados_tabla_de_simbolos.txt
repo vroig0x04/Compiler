@@ -1,0 +1,44 @@
+Simbolo 'suma' añadido en nivel 0
+Simbolo 'a' añadido en nivel 1
+Simbolo 'b' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: b | Nivel: 1 | Tipo: ARG(enter)
+ID: a | Nivel: 1 | Tipo: ARG(enter)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+----------------------------------
+Simbolo 'mayor' añadido en nivel 0
+Simbolo 'a' añadido en nivel 1
+Simbolo 'b' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: b | Nivel: 1 | Tipo: ARG(enter)
+ID: a | Nivel: 1 | Tipo: ARG(enter)
+ID: mayor | Nivel: 0 | Tipo: PROC(void)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+----------------------------------
+Simbolo 'saludar' añadido en nivel 0
+Simbolo 'nombre' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: saludar | Nivel: 0 | Tipo: PROC(void)
+ID: nombre | Nivel: 1 | Tipo: ARG(cadena)
+ID: mayor | Nivel: 0 | Tipo: PROC(void)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+----------------------------------
+Simbolo 'main' añadido en nivel 0
+Simbolo 'x' añadido en nivel 1
+Simbolo 'y' añadido en nivel 1
+Simbolo 'resultado' añadido en nivel 1
+Simbolo 'elMayor' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: elMayor | Nivel: 1 | Tipo: VAR(enter)
+ID: resultado | Nivel: 1 | Tipo: VAR(enter)
+ID: y | Nivel: 1 | Tipo: VAR(enter)
+ID: x | Nivel: 1 | Tipo: VAR(enter)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+ID: saludar | Nivel: 0 | Tipo: PROC(void)
+ID: mayor | Nivel: 0 | Tipo: PROC(void)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+----------------------------------

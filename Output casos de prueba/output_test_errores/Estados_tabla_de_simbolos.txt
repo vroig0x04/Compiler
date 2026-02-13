@@ -1,0 +1,11 @@
+Simbolo 'main' añadido en nivel 0
+Simbolo 'K' añadido en nivel 1
+Simbolo 'z' añadido en nivel 1
+Simbolo 't' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: t | Nivel: 1 | Tipo: VAR(tupla)
+ID: K | Nivel: 1 | Tipo: CONST(enter)
+ID: z | Nivel: 1 | Tipo: VAR(enter)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+----------------------------------

@@ -1,0 +1,207 @@
+Simbolo 'a' añadido en nivel 0
+Simbolo 'b' añadido en nivel 0
+Simbolo 'main' añadido en nivel 0
+Simbolo 'x' añadido en nivel 1
+Simbolo 'y' añadido en nivel 1
+Simbolo 'c' añadido en nivel 1
+Simbolo 'd' añadido en nivel 1
+Simbolo 'e' añadido en nivel 1
+Simbolo 'chupichachi' añadido en nivel 1
+Simbolo 'pinga' añadido en nivel 1
+Simbolo 'pinga2' añadido en nivel 1
+Simbolo 'f' añadido en nivel 2
+
+--- Estado TD (Nivel 1) ---
+ID: pinga2 | Nivel: 1 | Tipo: VAR(tupla)
+ID: pinga | Nivel: 1 | Tipo: VAR(tupla)
+ID: chupichachi | Nivel: 1 | Tipo: VAR(tupla)
+ID: e | Nivel: 1 | Tipo: VAR(enter)
+ID: c | Nivel: 1 | Tipo: VAR(caracter)
+ID: y | Nivel: 1 | Tipo: VAR(enter)
+ID: x | Nivel: 1 | Tipo: VAR(enter)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+ID: b | Nivel: 0 | Tipo: VAR(enter)
+ID: d | Nivel: 1 | Tipo: VAR(enter)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+----------------------------------
+Simbolo 'compte' añadido en nivel 0
+Simbolo 'ingres' añadido en nivel 1
+Simbolo 'c' añadido en nivel 1
+Simbolo 'valorCompte' añadido en nivel 1
+Simbolo 'perdua' añadido en nivel 2
+Simbolo 'missatge' añadido en nivel 1
+Simbolo 'quantitatFixa' añadido en nivel 1
+Simbolo 'tuplaEnters' añadido en nivel 1
+Simbolo 'index' añadido en nivel 1
+Simbolo 'tuplilla' añadido en nivel 2
+Simbolo 'estonoesunapila' añadido en nivel 1
+Simbolo 'nouIndex' añadido en nivel 1
+Simbolo 'thisIndex' añadido en nivel 1
+Simbolo 'string' añadido en nivel 1
+Simbolo 'operador' añadido en nivel 1
+Simbolo 'resultat' añadido en nivel 1
+Simbolo 'resultatFinal' añadido en nivel 1
+Simbolo 'valorBoolea' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: valorBoolea | Nivel: 1 | Tipo: VAR(boolea)
+ID: resultatFinal | Nivel: 1 | Tipo: VAR(enter)
+ID: resultat | Nivel: 1 | Tipo: VAR(enter)
+ID: operador | Nivel: 1 | Tipo: VAR(enter)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+ID: b | Nivel: 0 | Tipo: VAR(enter)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+ID: compte | Nivel: 0 | Tipo: PROC(void)
+ID: missatge | Nivel: 1 | Tipo: CONST(cadena)
+ID: c | Nivel: 1 | Tipo: VAR(enter)
+ID: string | Nivel: 1 | Tipo: VAR(enter)
+ID: valorCompte | Nivel: 1 | Tipo: CONST(enter)
+ID: tuplaEnters | Nivel: 1 | Tipo: VAR(tupla)
+ID: index | Nivel: 1 | Tipo: VAR(enter)
+ID: nouIndex | Nivel: 1 | Tipo: VAR(enter)
+ID: quantitatFixa | Nivel: 1 | Tipo: VAR(enter)
+ID: thisIndex | Nivel: 1 | Tipo: VAR(enter)
+ID: ingres | Nivel: 1 | Tipo: ARG(enter)
+ID: estonoesunapila | Nivel: 1 | Tipo: VAR(tupla)
+----------------------------------
+Simbolo 'hola' añadido en nivel 0
+
+--- Estado TD (Nivel 1) ---
+ID: hola | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+ID: b | Nivel: 0 | Tipo: VAR(enter)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+ID: compte | Nivel: 0 | Tipo: PROC(void)
+----------------------------------
+Simbolo 'exemple' añadido en nivel 0
+Simbolo 'aas' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: aas | Nivel: 1 | Tipo: ARG(enter)
+ID: exemple | Nivel: 0 | Tipo: PROC(void)
+ID: hola | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+ID: b | Nivel: 0 | Tipo: VAR(enter)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+ID: compte | Nivel: 0 | Tipo: PROC(void)
+----------------------------------
+Simbolo 'sumaDos' añadido en nivel 0
+Simbolo 'po' añadido en nivel 1
+Simbolo 'oa' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: oa | Nivel: 1 | Tipo: ARG(enter)
+ID: po | Nivel: 1 | Tipo: ARG(enter)
+ID: sumaDos | Nivel: 0 | Tipo: PROC(void)
+ID: exemple | Nivel: 0 | Tipo: PROC(void)
+ID: hola | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+ID: b | Nivel: 0 | Tipo: VAR(enter)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+ID: compte | Nivel: 0 | Tipo: PROC(void)
+----------------------------------
+Simbolo 'probarBucles' añadido en nivel 0
+Simbolo 'b' añadido en nivel 1
+Simbolo 'a' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: probarBucles | Nivel: 0 | Tipo: PROC(void)
+ID: sumaDos | Nivel: 0 | Tipo: PROC(void)
+ID: exemple | Nivel: 0 | Tipo: PROC(void)
+ID: hola | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 1 | Tipo: VAR(enter)
+ID: b | Nivel: 1 | Tipo: VAR(enter)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+ID: compte | Nivel: 0 | Tipo: PROC(void)
+----------------------------------
+Simbolo 'calcularDescompte' añadido en nivel 0
+Simbolo 'preu' añadido en nivel 1
+Simbolo 'descompte' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: descompte | Nivel: 1 | Tipo: VAR(enter)
+ID: preu | Nivel: 1 | Tipo: ARG(enter)
+ID: calcularDescompte | Nivel: 0 | Tipo: PROC(void)
+ID: probarBucles | Nivel: 0 | Tipo: PROC(void)
+ID: sumaDos | Nivel: 0 | Tipo: PROC(void)
+ID: exemple | Nivel: 0 | Tipo: PROC(void)
+ID: hola | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+ID: b | Nivel: 0 | Tipo: VAR(enter)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+ID: compte | Nivel: 0 | Tipo: PROC(void)
+----------------------------------
+Simbolo 'suma' añadido en nivel 0
+Simbolo 'x' añadido en nivel 1
+Simbolo 'y' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: y | Nivel: 1 | Tipo: ARG(boolea)
+ID: x | Nivel: 1 | Tipo: ARG(enter)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: calcularDescompte | Nivel: 0 | Tipo: PROC(void)
+ID: probarBucles | Nivel: 0 | Tipo: PROC(void)
+ID: sumaDos | Nivel: 0 | Tipo: PROC(void)
+ID: exemple | Nivel: 0 | Tipo: PROC(void)
+ID: hola | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+ID: b | Nivel: 0 | Tipo: VAR(enter)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+ID: compte | Nivel: 0 | Tipo: PROC(void)
+----------------------------------
+Simbolo 'malRetorno' añadido en nivel 0
+
+--- Estado TD (Nivel 1) ---
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: calcularDescompte | Nivel: 0 | Tipo: PROC(void)
+ID: probarBucles | Nivel: 0 | Tipo: PROC(void)
+ID: sumaDos | Nivel: 0 | Tipo: PROC(void)
+ID: malRetorno | Nivel: 0 | Tipo: PROC(void)
+ID: exemple | Nivel: 0 | Tipo: PROC(void)
+ID: hola | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+ID: b | Nivel: 0 | Tipo: VAR(enter)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+ID: compte | Nivel: 0 | Tipo: PROC(void)
+----------------------------------
+Simbolo 'senseRetorn' añadido en nivel 0
+Simbolo 'x' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: x | Nivel: 1 | Tipo: VAR(enter)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: calcularDescompte | Nivel: 0 | Tipo: PROC(void)
+ID: probarBucles | Nivel: 0 | Tipo: PROC(void)
+ID: sumaDos | Nivel: 0 | Tipo: PROC(void)
+ID: senseRetorn | Nivel: 0 | Tipo: PROC(void)
+ID: malRetorno | Nivel: 0 | Tipo: PROC(void)
+ID: exemple | Nivel: 0 | Tipo: PROC(void)
+ID: hola | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+ID: b | Nivel: 0 | Tipo: VAR(enter)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+ID: compte | Nivel: 0 | Tipo: PROC(void)
+----------------------------------
+Simbolo 'x' añadido en nivel 1
+Simbolo 'flag' añadido en nivel 1
+Simbolo 'texto' añadido en nivel 1
+Simbolo 'c' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: c | Nivel: 1 | Tipo: CONST(enter)
+ID: texto | Nivel: 1 | Tipo: VAR(cadena)
+ID: x | Nivel: 1 | Tipo: VAR(enter)
+ID: suma | Nivel: 0 | Tipo: PROC(void)
+ID: flag | Nivel: 1 | Tipo: VAR(boolea)
+ID: calcularDescompte | Nivel: 0 | Tipo: PROC(void)
+ID: probarBucles | Nivel: 0 | Tipo: PROC(void)
+ID: sumaDos | Nivel: 0 | Tipo: PROC(void)
+ID: senseRetorn | Nivel: 0 | Tipo: PROC(void)
+ID: malRetorno | Nivel: 0 | Tipo: PROC(void)
+ID: exemple | Nivel: 0 | Tipo: PROC(void)
+ID: hola | Nivel: 0 | Tipo: PROC(void)
+ID: a | Nivel: 0 | Tipo: VAR(enter)
+ID: b | Nivel: 0 | Tipo: VAR(enter)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+ID: compte | Nivel: 0 | Tipo: PROC(void)
+----------------------------------

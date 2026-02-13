@@ -1,0 +1,6 @@
+Error en la línea 8: syntax error
+Error en la línea 11: Error semántico: 'y' no declarado.
+Error en la línea 15: No se puede reasignar a una constante
+Error en la línea 18: Operandos de suma deben ser numéricos
+Error en la línea 18: Tipos incompatibles en inicialización
+Error en la línea 22: Tipo incompatible en asignación a elemento de tupla

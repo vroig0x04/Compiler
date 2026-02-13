@@ -1,0 +1,26 @@
+funcio main() ç
+    `` 1. Declaracio de variables
+    enter a = 10;
+    enter b = 20;
+    cadena saludo = "HolaMundo";
+    boolea flag = vertader;
+    
+    `` 2. Operacions aritmetiques
+    enter suma = a mes b;
+    enter resta = b menys a;
+    enter mult = a per 5;
+    enter div = b entre 2;
+    enter mod = b modul 3;
+    
+    `` 3. Sortida de dades
+    imprimeix(saludo);
+    imprimeix(suma);
+    imprimeix(resta);
+    imprimeix(mult);
+    imprimeix(div);
+    imprimeix(mod);
+    
+    `` 4. Operacions booleanes
+    boolea test = a < b;
+    imprimeix(test);
+ç

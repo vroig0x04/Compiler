@@ -1,0 +1,38 @@
+funcio main() ç
+    `` 1. Errors en declaracions i assignacions basiques
+    enter i = "hola";       `` Error: tipus incompatible (enter = cadena)
+    boolea b = 10;          `` Error: tipus incompatible (boolea = enter)
+    cadena s = vertader;    `` Error: tipus incompatible (cadena = boolea)
+    
+    `` 2. Errors en operacions aritmetiques
+    enter res1 = 10 mes "text";   `` Error: suma amb cadena
+    enter res2 = 5 per vertader;  `` Error: mult amb boolea
+    enter res3 = "a" menys "b";   `` Error: resta de cadenes
+    
+    `` 3. Errors en operacions logiques
+    boolea bool1 = 10 && 20;      `` Error: AND amb enters
+    boolea bool2 = no "hola";     `` Error: NOT amb cadena
+    boolea bool3 = vertader || 5; `` Error: OR amb enter
+    
+    `` 4. Errors en operacions relacionals
+    boolea rel1 = 10 > "text";    `` Error: comparacio enter vs cadena
+    boolea rel2 = "a" <= vertader;`` Error: comparacio cadena vs boolea
+    
+    `` 5. Errors en tuples
+    tupla<enter> t;
+    t[0] = "string";        `` Error: assignar cadena a element enter
+    tupla<cadena> t2;
+    t2 = t;                 `` Error: assignar tupla<enter> a tupla<cadena>
+    
+    `` 6. Errors en funcions
+    suma("una", "dos");     `` Error: arguments incorrectes (esperat enter, enter)
+    boolea ret = funcioRetornaEnter(); `` Error: assignar retorn enter a boolea
+ç
+
+funcio suma(enter a, enter b) -> enter ç
+    retorna a mes b;
+ç
+
+funcio funcioRetornaEnter() -> enter ç
+    retorna "text";         `` Error: retorn incorrecte
+ç

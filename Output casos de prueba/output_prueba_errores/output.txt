@@ -1,0 +1,28 @@
+=== Iniciant l'anàlisi ===
+Error en la línea 13: Operandos de suma deben ser numéricos
+Error en la línea 20: Tipos incompatibles en elementos de tupla
+Error en la línea 22: Tipos incompatibles en elementos de tupla
+Error en la línea 86: Tipos incompatibles en inicialización
+Error en la línea 95: La función 'compte' debe retornar un valor
+Error en la línea 103: La función 'exemple' debe retornar un valor
+Error en la línea 123: Tipos incompatibles en asignación
+Error en la línea 126: La función 'probarBucles' debe retornar un valor
+Error en la línea 150: Operandos de suma deben ser numéricos
+Error en la línea 155: Tipo de retorno incompatible con el retorno de función
+Error en la línea 163: La función 'senseRetorn' debe retornar un valor
+Error en la línea 165: Error semántico: 'main' ya definido en nivel 0
+Error en la línea 170: syntax error
+Error en la línea 173: Tipos incompatibles en asignación
+Error en la línea 176: Error semántico: 'y' no declarado.
+Error en la línea 180: No se puede reasignar a una constante
+Error en la línea 183: Operando izquierdo de AND debe ser booleano
+Error en la línea 186: Operando izquierdo de OR debe ser booleano
+Error en la línea 189: Tipos incompatibles en comparación ==
+Error en la línea 192: Operandos de suma deben ser numéricos
+Error en la línea 195: Operando de NOT debe ser booleano
+Error en la línea 198: syntax error
+Error en la línea 201: Operando de ++ debe ser numérico
+Error en la línea 204: Tipo incompatible en argumento de función
+Error en la línea 207: El identificador no es una funcion
+
+S'han trobat errors durant l'anàlisi.

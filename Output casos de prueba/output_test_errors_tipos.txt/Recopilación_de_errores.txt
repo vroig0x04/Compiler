@@ -1,0 +1,19 @@
+Error en la línea 3: Tipos incompatibles en inicialización
+Error en la línea 4: Tipos incompatibles en inicialización
+Error en la línea 5: Tipos incompatibles en inicialización
+Error en la línea 8: Operandos de suma deben ser numéricos
+Error en la línea 9: Operandos de multiplicación deben ser numéricos
+Error en la línea 10: Operandos de resta deben ser numéricos
+Error en la línea 10: Tipos incompatibles en inicialización
+Error en la línea 13: Operando izquierdo de AND debe ser booleano
+Error en la línea 13: Operando derecho de AND debe ser booleano
+Error en la línea 14: Operando de NOT debe ser booleano
+Error en la línea 15: Operando derecho de OR debe ser booleano
+Error en la línea 18: Operandos de > deben ser numéricos
+Error en la línea 19: Operandos de <= deben ser numéricos
+Error en la línea 23: Tipo incompatible en asignación a elemento de tupla
+Error en la línea 25: Tipos incompatibles en elementos de tupla
+Error en la línea 28: Error semántico: 'suma' no declarado.
+Error en la línea 29: Error semántico: 'funcioRetornaEnter' no declarado.
+Error en la línea 29: Tipos incompatibles en inicialización
+Error en la línea 37: Tipo de retorno incompatible con el retorno de función

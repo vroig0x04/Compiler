@@ -1,0 +1,209 @@
+`` Comentari de línia d'exemple
+
+enter a; 
+enter b;
+
+funcio main () ç
+    enter x;
+
+    enter y;
+    ``hola();
+    caracter c = 'd';  
+    
+    enter d=b mes c;
+    ``da el error correctamente
+    
+    enter e;
+    a=0;
+    
+    tupla <enter> chupichachi;
+    chupichachi=("1","2");
+    tupla <cadena> pinga = ("pinga", "pinga");
+    tupla <enter> pinga2 = ("1", "2");
+    ``da el error correctamente
+
+    es ¿c mateixque 'd'? ç
+        enter f = a mes a;  
+        a= a mes b;
+        ``if
+    ç
+    sinoes ¿c distint'd'?ç
+        a=a menys a;  ``elseif
+    ç
+    altre ç
+    a=0; ``else
+    ç    
+ç
+
+funcio compte(enter ingres) -> boolea ç
+    enter c;
+    ``boolea c;
+    constant enter valorCompte = 550;
+
+    imprimeix("al teu compte s'ingressa {ingres}");
+    es ¿ingres >= 10? ç
+        imprimeix("es un ingrés petit");
+    ç sinoes ¿ingres >= 20? ç
+        `` es un ingres gran
+    ç altre ç
+        `` declara un altre valor 
+        enter perdua = 0;
+    ç
+
+    constant cadena missatge = "El teu compte es a Espayanya";
+    imprimeix(missatge);
+    
+    `` obté una entrada
+    enter quantitatFixa = entrada("dona un nombre");
+
+    tupla <enter> tuplaEnters;
+    recorrer (enter index = 0; index < quantitatFixa; index++) ç
+        tupla <caracter> tuplilla;
+        mentre (index > 0) ç
+            index=index--;
+        ç
+
+        `` posa-ho a -1
+        --index;
+        `` i deixa-ho com estava
+        ++index;
+    ç
+
+    tupla <enter> estonoesunapila;
+    enter nouIndex; `` nivel 1 
+    recorrer (nouIndex = 10; nouIndex > 1;) ç `` nivel 2
+        es ¿nouIndex mateixque 2? ç
+            imprimeix("Ja s'ha acabat");
+        ç
+        --nouIndex;
+    ç
+
+    enter thisIndex = 0;
+    mentre (thisIndex >= 10) ç
+        thisIndex = thisIndex mes 2;
+    ç
+    
+    enter string = "hola";
+    ``Muestra el error correctamente
+
+    enter operador = 89;
+    enter resultat = ((5 per 5) mes nouIndex) modul 89;
+    enter resultatFinal = resultat // 10;
+
+    boolea valorBoolea = (fals && vertader) || no vertader;
+
+ç
+
+funcio hola() ç
+    imprimeix("hola");
+ç
+
+funcio exemple(enter aas) -> enter ç
+    ``ignora esto
+ç
+
+funcio sumaDos(enter po, enter oa) -> enter ç
+    retorna(a mes b);
+ç
+
+funcio probarBucles ()-> boolea ç
+    mentre (a < b) ç
+        1 mes 1;
+        2 mes 2;    
+    ç
+
+    ññ
+    Comentario de bloque en medio de función
+    jej
+    rarete chat
+    ññ
+    enter b;
+    recorrer (enter a=0;a<100;a= a mes a) ç
+    
+        b = cast (boolea , b);
+        ``correcto porque b es un entero, entero = entero convertido en boleano, da el error
+    ç
+ç
+    
+    
+funcio calcularDescompte(enter preu) -> enter ç
+    enter descompte = 0;
+
+    es ¿preu > 100? ç
+        descompte = preu per 0;
+    ç sinoes ¿preu > 50? ç
+        descompte = preu per 1;
+    ç altre ç
+        descompte = preu per 5;
+    ç
+    retorna(descompte);
+ç 
+
+ññ
+Comentari
+de bloc
+amb múltiples línies
+i caràcters rars com ñu, à, è, í
+ññ
+
+funcio suma(enter x, boolea y) -> enter ç
+    retorna (x mes y);
+    ``da error correctamente, porque y es boleano
+ç
+
+funcio malRetorno() -> enter ç
+    retorna "hola";
+    ``da error correctamente
+ç
+
+funcio senseRetorn() -> boolea ç
+    enter x;
+    x = 3;
+    ``da error correctamente La función 'senseRetorn' debe retornar un valor
+ç
+
+funcio main() ç
+    enter x;
+    boolea flag;
+    cadena texto;
+    
+    boolea vertader = vertader;
+    ``da error correctamente
+
+    x = vertader;
+    ``da error correctamente
+
+    y = 5;
+    ``da error correctamente
+    
+    constant enter c;
+    c = 10;
+    ``da error correctamente
+
+    flag = x && vertader;
+    ``da error correctamente
+
+    flag = "hola" || fals;
+    ``da error correctamente
+    
+    flag = x mateixque "texto";
+    ``da error correctamente
+
+    x = x mes flag;
+    ``da error correctamente
+
+    flag = no x;
+    ``da error correctamente
+
+    x = x modul 2.5;
+    ``da error correctamente sintax error no pueden ser decimales
+
+    texto++;
+    ``da error correctamente
+    
+    x = suma(3, 4);
+    ``da error correctamente
+
+    x();
+    ``da error correctamente
+ç

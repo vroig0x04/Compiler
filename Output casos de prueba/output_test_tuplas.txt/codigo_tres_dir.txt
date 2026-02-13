@@ -1,0 +1,17 @@
+1.	main:    // Función: main | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+2.	punto[0] = 5  // Asignación tupla | T1:enter T2:enter TR:tupla LIT1:1 LIT2:1
+3.	punto[1] = 10  // Asignación tupla | T1:enter T2:enter TR:tupla LIT1:1 LIT2:1
+4.	t0 = punto[0]  // Acceso tupla | T1:tupla T2:enter TR:desconocido LIT1:0 LIT2:1
+5.	print t0  // Imprimir expresión | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+6.	t1 = punto[1]  // Acceso tupla | T1:tupla T2:enter TR:desconocido LIT1:0 LIT2:1
+7.	print t1  // Imprimir expresión | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+8.	nombres[0] = "Ana"  // Asignación tupla | T1:enter T2:cadena TR:tupla LIT1:1 LIT2:1
+9.	nombres[1] = "Bob"  // Asignación tupla | T1:enter T2:cadena TR:tupla LIT1:1 LIT2:1
+10.	t2 = nombres[0]  // Acceso tupla | T1:tupla T2:enter TR:desconocido LIT1:0 LIT2:1
+11.	print t2  // Imprimir expresión | T1:cadena T2:desconocido TR:desconocido LIT1:0 LIT2:0
+12.	t3 = nombres[1]  // Acceso tupla | T1:tupla T2:enter TR:desconocido LIT1:0 LIT2:1
+13.	print t3  // Imprimir expresión | T1:cadena T2:desconocido TR:desconocido LIT1:0 LIT2:0
+14.	p2 = punto  // Asignación | T1:tupla T2:desconocido TR:tupla LIT1:0 LIT2:0
+15.	t4 = p2[0]  // Acceso tupla | T1:tupla T2:enter TR:desconocido LIT1:0 LIT2:1
+16.	print t4  // Imprimir expresión | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+17.	   // Fin de función: main | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0

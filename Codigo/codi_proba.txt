@@ -1,0 +1,100 @@
+enter a;
+boolea flag;
+caracter c;
+cadena msg;
+
+funcio suma(enter z, enter b) -> enter ç
+    enter r;
+    r = z mes b;
+    retorna r;
+ç
+
+funcio max(enter x, enter y) -> enter ç
+    es ¿x > y? ç
+        retorna x;
+    ç
+    retorna y;
+ç
+
+funcio esPositiu(enter f) -> boolea ç
+    es ¿f > 0? ç
+        retorna vertader;
+    ç
+    retorna fals;
+ç
+
+funcio provaBucles() ç
+    enter i;
+    i = 0;
+
+    mentre (i < 5) ç
+        i = i mes 1;
+    ç
+
+    recorrer (enter j = 0; j < 3; j++) ç
+        i = i mes j;
+    ç
+ç
+
+funcio provaOperacions() -> enter ç
+    enter x;
+    enter y;
+    x = 10;
+    y = 3;
+
+    x = x mes y;
+    x = x menys y;
+    x = x per y;
+    x = x // y;
+    x = x entre 2;
+    x = x modul 2;
+
+    retorna x;
+ç
+
+funcio provaBoolean() -> boolea ç
+    boolea r;
+    r = (10 > 5) && (3 < 4);
+    r = r || fals;
+    r = no r;
+    retorna r;
+ç
+
+funcio provaIO() ç
+    enter x;
+    entrada(x);
+    imprimeix(x);
+ç
+
+funcio provaCast() -> caracter ç
+    enter x;
+    caracter d;
+    x = 5;
+    d = cast(caracter, x);
+    retorna d;
+ç
+
+funcio main() ç
+    enter x=3;
+    enter y;
+    enter z;
+    boolea ok;
+    tupla <enter> t=(x,y);
+    y = 4;
+
+    z = suma(x, y);
+    ok = esPositiu(z);
+
+    es ¿ok? ç
+        imprimeix(z);
+    ç
+    altre ç
+        imprimeix(x);
+    ç
+
+    provaBucles();
+    provaOperacions();
+    provaBoolean();
+    provaIO();
+    provaCast();
+ç

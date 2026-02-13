@@ -1,0 +1,11 @@
+Simbolo 'main' añadido en nivel 0
+Simbolo 'punto' añadido en nivel 1
+Simbolo 'nombres' añadido en nivel 1
+Simbolo 'p2' añadido en nivel 1
+
+--- Estado TD (Nivel 1) ---
+ID: p2 | Nivel: 1 | Tipo: VAR(tupla)
+ID: nombres | Nivel: 1 | Tipo: VAR(tupla)
+ID: punto | Nivel: 1 | Tipo: VAR(tupla)
+ID: main | Nivel: 0 | Tipo: PROC(void)
+----------------------------------

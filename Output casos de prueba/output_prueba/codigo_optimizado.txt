@@ -1,0 +1,92 @@
+1.	suma:    // Función: suma PARAMS:z,b | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+2.	r = z + b  // Asignación | T1:enter T2:desconocido TR:enter LIT1:0 LIT2:0
+3.	return r  // Retorno de función | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+4.	   // Fin de función: suma | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+5.	max:    // Función: max PARAMS:x,y | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+6.	L0:    // Inicio IF | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+7.	t1 = x > y  // Mayor que | T1:enter T2:enter TR:boolea LIT1:0 LIT2:0
+8.	if_false t1, goto L1  // IF condición falsa | T1:boolea T2:desconocido TR:desconocido LIT1:0 LIT2:0
+9.	return x  // Retorno de función | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+10.	goto L2  // Fin IF | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+11.	L1:    // Etiqueta ELSE (vacío) | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+12.	L2:    // Fin IF completo | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+13.	return y  // Retorno de función | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+14.	   // Fin de función: max | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+15.	esPositiu:    // Función: esPositiu PARAMS:f | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+16.	L3:    // Inicio IF | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+17.	t2 = f > 0  // Mayor que | T1:enter T2:enter TR:boolea LIT1:0 LIT2:1
+18.	if_false t2, goto L4  // IF condición falsa | T1:boolea T2:desconocido TR:desconocido LIT1:0 LIT2:0
+19.	return veritat  // Retorno de función | T1:boolea T2:desconocido TR:desconocido LIT1:1 LIT2:0
+20.	goto L5  // Fin IF | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+21.	L4:    // Etiqueta ELSE (vacío) | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+22.	L5:    // Fin IF completo | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+23.	return falsetat  // Retorno de función | T1:boolea T2:desconocido TR:desconocido LIT1:1 LIT2:0
+24.	   // Fin de función: esPositiu | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+25.	provaBucles:    // Función: provaBucles PARAMS: | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+26.	i = 0  // Asignación | T1:enter T2:desconocido TR:enter LIT1:1 LIT2:0
+27.	L6:    // Inicio WHILE | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+28.	t3 = i < 5  // Menor que | T1:enter T2:enter TR:boolea LIT1:0 LIT2:1
+29.	if_false t3, goto L7  // WHILE condición falsa | T1:boolea T2:desconocido TR:desconocido LIT1:0 LIT2:0
+30.	i = i + 1  // Asignación | T1:enter T2:desconocido TR:enter LIT1:0 LIT2:0
+31.	goto L6  // Volver al inicio WHILE | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+32.	L7:    // Fin WHILE | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+33.	j = 0  // Inicialización en for | T1:enter T2:desconocido TR:enter LIT1:1 LIT2:0
+34.	L8:    // Inicio FOR | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+35.	t5 = j < 3  // Menor que | T1:enter T2:enter TR:boolea LIT1:0 LIT2:1
+36.	if_false t5, goto L9  // FOR condición falsa | T1:boolea T2:desconocido TR:desconocido LIT1:0 LIT2:0
+37.	i = i + j  // Asignación | T1:enter T2:desconocido TR:enter LIT1:0 LIT2:0
+38.	j = j + 1  // Asignación ++ | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+39.	goto L8  // Volver al inicio FOR | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+40.	L9:    // Fin FOR | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+41.	   // Fin de función: provaBucles | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+42.	provaOperacions:    // Función: provaOperacions PARAMS: | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+43.	x = 10  // Asignación | T1:enter T2:desconocido TR:enter LIT1:1 LIT2:0
+44.	y = 3  // Asignación | T1:enter T2:desconocido TR:enter LIT1:1 LIT2:0
+45.	x = x + y  // Asignación | T1:enter T2:desconocido TR:enter LIT1:0 LIT2:0
+46.	x = x - y  // Asignación | T1:enter T2:desconocido TR:enter LIT1:0 LIT2:0
+47.	x = x * y  // Asignación | T1:enter T2:desconocido TR:enter LIT1:0 LIT2:0
+48.	x = x / 2  // Asignación | T1:enter T2:desconocido TR:enter LIT1:0 LIT2:0
+49.	x = x % 2  // Asignación | T1:enter T2:desconocido TR:enter LIT1:0 LIT2:0
+50.	return x  // Retorno de función | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+51.	   // Fin de función: provaOperacions | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+52.	provaBoolean:    // Función: provaBoolean PARAMS: | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+53.	t14 = 10 > 5  // Mayor que | T1:enter T2:enter TR:boolea LIT1:1 LIT2:1
+54.	t15 = 3 < 4  // Menor que | T1:enter T2:enter TR:boolea LIT1:1 LIT2:1
+55.	r = t14 && t15  // Asignación | T1:boolea T2:desconocido TR:boolea LIT1:0 LIT2:0
+56.	r = r || falsetat  // Asignación | T1:boolea T2:desconocido TR:boolea LIT1:0 LIT2:0
+57.	r = ! r  // Asignación | T1:boolea T2:desconocido TR:boolea LIT1:0 LIT2:0
+58.	return r  // Retorno de función | T1:boolea T2:desconocido TR:desconocido LIT1:0 LIT2:0
+59.	   // Fin de función: provaBoolean | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+60.	provaIO:    // Función: provaIO PARAMS: | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+61.	read x  // Leer entrada | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+62.	print x  // Imprimir expresión | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+63.	   // Fin de función: provaIO | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+64.	provaCast:    // Función: provaCast PARAMS: | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+65.	x = 5  // Asignación | T1:enter T2:desconocido TR:enter LIT1:1 LIT2:0
+66.	d = caracter cast x  // Asignación | T1:caracter T2:desconocido TR:caracter LIT1:0 LIT2:0
+67.	return d  // Retorno de función | T1:caracter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+68.	   // Fin de función: provaCast | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+69.	main:    // Función: main | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+70.	x = 3  // Inicialización | T1:enter T2:desconocido TR:enter LIT1:1 LIT2:0
+71.	t20[0] = x  // Init tupla 0 | T1:enter T2:desconocido TR:desconocido LIT1:1 LIT2:0
+72.	t20[1] = y  // Init tupla 1 | T1:enter T2:enter TR:tupla LIT1:1 LIT2:0
+73.	t = t20  // Inicialización tupla | T1:tupla T2:desconocido TR:tupla LIT1:0 LIT2:0
+74.	y = 4  // Asignación | T1:enter T2:desconocido TR:enter LIT1:1 LIT2:0
+75.	param x  // Parámetro de función | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+76.	param y  // Parámetro de función | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+77.	z = call suma  // Asignación | T1:enter T2:desconocido TR:enter LIT1:0 LIT2:0
+78.	param z  // Parámetro de función | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+79.	ok = call esPositiu  // Asignación | T1:boolea T2:desconocido TR:boolea LIT1:0 LIT2:0
+80.	L10:    // Inicio IF | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+81.	if_false ok, goto L11  // IF condición falsa | T1:boolea T2:desconocido TR:desconocido LIT1:0 LIT2:0
+82.	print z  // Imprimir expresión | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+83.	goto L12  // Fin IF | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+84.	L11:    // Etiqueta ELSE | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+85.	print x  // Imprimir expresión | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+86.	L12:    // Fin IF completo | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+87.	call provaBucles  // Llamada a función provaBucles | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+88.	t23 = call provaOperacions  // Llamada a función provaOperacions | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+89.	t24 = call provaBoolean  // Llamada a función provaBoolean | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+90.	call provaIO  // Llamada a función provaIO | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+91.	t25 = call provaCast  // Llamada a función provaCast | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+92.	   // Fin de función: main | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0

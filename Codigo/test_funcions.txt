@@ -1,0 +1,38 @@
+funcio suma(enter a, enter b) -> enter ç
+    retorna a mes b;
+ç
+
+funcio mayor(enter a, enter b) -> enter ç
+    es ¿a > b? ç
+        retorna a;
+    ç
+    altre ç
+        retorna b;
+    ç
+ç
+
+funcio saludar(cadena nombre) -> void ç
+    imprimeix("Hola ");
+    imprimeix(nombre);
+ç
+
+
+funcio main() ç
+    `` 1. Crida a funcio amb retorn
+    enter x = 10;
+    enter y = 20;
+    enter resultado = suma(x, y);
+    imprimeix(resultado);
+    
+    `` 2. Crida a funcio amb logica interna
+    enter elMayor = mayor(x, y);
+    imprimeix(elMayor);
+    
+    `` 3. Funcio void
+    saludar("Usuario");
+    
+    `` 4. Recursivitat simple (Factorial)
+    ``imprimeix(factorial(5));
+ç
+
+

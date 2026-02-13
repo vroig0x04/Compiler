@@ -1,0 +1,34 @@
+1.	suma:    // Función: suma PARAMS:a,b | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+2.	t0 = a + b  // Suma | T1:enter T2:enter TR:enter LIT1:0 LIT2:0
+3.	return t0  // Retorno de función | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+4.	   // Fin de función: suma | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+5.	mayor:    // Función: mayor PARAMS:a,b | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+6.	L0:    // Inicio IF | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+7.	t1 = a > b  // Mayor que | T1:enter T2:enter TR:boolea LIT1:0 LIT2:0
+8.	if_false t1, goto L1  // IF condición falsa | T1:boolea T2:desconocido TR:desconocido LIT1:0 LIT2:0
+9.	return a  // Retorno de función | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+10.	goto L2  // Fin IF | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+11.	L1:    // Etiqueta ELSE | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+12.	return b  // Retorno de función | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+13.	L2:    // Fin IF completo | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+14.	   // Fin de función: mayor | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+15.	saludar:    // Función: saludar PARAMS:nombre | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+16.	print "Hola "  // Imprimir expresión | T1:cadena T2:desconocido TR:desconocido LIT1:1 LIT2:0
+17.	print nombre  // Imprimir expresión | T1:cadena T2:desconocido TR:desconocido LIT1:0 LIT2:0
+18.	   // Fin de función: saludar | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+19.	main:    // Función: main | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+20.	x = 10  // Inicialización | T1:enter T2:desconocido TR:enter LIT1:1 LIT2:0
+21.	y = 20  // Inicialización | T1:enter T2:desconocido TR:enter LIT1:1 LIT2:0
+22.	param x  // Parámetro de función | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+23.	param y  // Parámetro de función | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+24.	t2 = call suma  // Llamada a función suma | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+25.	resultado = t2  // Inicialización | T1:enter T2:desconocido TR:enter LIT1:0 LIT2:0
+26.	print resultado  // Imprimir expresión | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+27.	param x  // Parámetro de función | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+28.	param y  // Parámetro de función | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+29.	t3 = call mayor  // Llamada a función mayor | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+30.	elMayor = t3  // Inicialización | T1:enter T2:desconocido TR:enter LIT1:0 LIT2:0
+31.	print elMayor  // Imprimir expresión | T1:enter T2:desconocido TR:desconocido LIT1:0 LIT2:0
+32.	param "Usuario"  // Parámetro de función | T1:cadena T2:desconocido TR:desconocido LIT1:1 LIT2:0
+33.	call saludar  // Llamada a función saludar | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0
+34.	   // Fin de función: main | T1:desconocido T2:desconocido TR:desconocido LIT1:0 LIT2:0

@@ -1,0 +1,23 @@
+funcio main() ç
+    `` AQUEST ARXIU CONTE ERRORS INTENCIONALS PER PROVAR EL COMPILADOR
+    
+    `` 1. Error Sintactic: Falta punt i coma
+    enter x = 10
+    
+    `` 2. Error Semantic: Tipus incompatibles
+    cadena s = 123;
+    
+    `` 3. Error Semantic: Variable no declarada
+    y = 5;
+    
+    `` 4. Error Semantic: Assignacio a constant
+    constant enter K = 100;
+    K = 200;
+    
+    `` 5. Error Semantic: Operacio invalida tipus
+    enter z = "hola" mes 5;
+    
+    `` 6. Error de Tupla: Index o tipus
+    tupla<enter> t;
+    t[0] = "error";
+ç

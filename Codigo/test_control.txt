@@ -1,0 +1,36 @@
+funcio main() ç
+    enter x = 10;
+    
+    `` 1. If-Else
+    es ¿x > 5? ç
+        imprimeix("x es mayor que 5");
+    ç
+    altre ç
+        imprimeix("x es menor o igual a 5");
+    ç
+    
+    `` 2. Bucle MENTRE (While)
+    enter i = 0;
+    mentre (i < 5) ç
+        imprimeix(i);
+        i++;
+    ç
+    
+    `` 3. Bucle RECORRER (For)
+    imprimeix("Iniciando for loop");
+    recorrer (enter j = 0; j < 3; j++) ç
+        imprimeix(j);
+    ç
+    
+    `` 4. Else If (sinoes)
+    enter nota = 7;
+    es ¿nota >= 9? ç
+        imprimeix("Excelente");
+    ç
+    sinoes ¿nota >= 5? ç
+        imprimeix("Aprobado");
+    ç
+    altre ç
+        imprimeix("Suspendido");
+    ç
+ç
