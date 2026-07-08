@@ -1,3 +1,9 @@
+Copyright (c) 2026 Vicent Roig. All rights reserved.
+
+WARNING: This software is the proprietary property of Vicent Roig.
+Unauthorized copying, modification, or distribution of this file, via any 
+medium, is strictly prohibited. Proprietary and confidential.
+
 Es necesario dar permisos de ejecución a "compilar_x64.sh" y "compilar_y_ejecutar.sh" (En caso de tener que volver a crear el parser también se deben asignar permisos a "flex_bison.sh"
 
 Para ejecutar el código únicamente es necesario utilizar el script "compilar_y_ejecutar"
