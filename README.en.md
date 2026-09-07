@@ -15,7 +15,7 @@ The compiler follows the classic compiler architecture, dividing the process int
 
 **Disponible en otros idiomas:** [Español](README.md)
 
-## 🏗️ Project Composition
+##  Project Composition
 
 ```
 C++ Language:     74.9%  | Main compiler logic
@@ -25,7 +25,7 @@ Lex (Flex):        1.3%  | Lexical analysis
 Shell:             0.4%  | Build and execution scripts
 ```
 
-## 🛠️ Tools and Dependencies
+##  Tools and Dependencies
 
 ### System Requirements
 
@@ -78,7 +78,7 @@ Compiler/
 └── README.en.md                     # This file
 ```
 
-## 🚀 Usage Guide
+##  Usage Guide
 
 ### 1. Initial Setup
 
@@ -155,19 +155,19 @@ The repository includes several test cases demonstrating the syntax:
 
 Consult these files for examples of supported syntax.
 
-## 🧪 Test Cases
+##  Test Cases
 
 The project includes a comprehensive test suite that validates:
 
-- ✅ Lexical and syntactic analysis
-- ✅ Type checking
-- ✅ Correct code generation
-- ✅ Semantic error handling
-- ✅ Basic and advanced operations
+-  Lexical and syntactic analysis
+-  Type checking
+-  Correct code generation
+-  Semantic error handling
+-  Basic and advanced operations
 
 Execution results are stored in the `Output casos de prueba/` directory.
 
-## 🔧 Compiler Phases
+##  Compiler Phases
 
 ### Phase 1: Lexical Analysis
 Performed by **Flex** via `lexico.l`, tokenizes the source code.
@@ -190,7 +190,7 @@ x86_64 generator (`generador_x64.h`) produces NASM assembly code.
 ### Phase 7: Assembly and Linking
 Performed by **NASM** and **GCC**, generates the final executable.
 
-## 📊 x86_64 Architecture
+##  x86_64 Architecture
 
 The compiler generates optimized code for the x86_64 architecture following system calling conventions. The generated code is compatible with Linux/Unix systems based on x86_64.
 
