@@ -143,7 +143,7 @@ Then, recompile the compiler:
 ./compilar_x64.sh
 ```
 
-## 📝 Ç Language Syntax Basics
+##  Ç Language Syntax Basics
 
 The repository includes several test cases demonstrating the syntax:
 
