@@ -15,7 +15,7 @@ El compilador sigue la arquitectura clásica de compiladores, dividiendo el proc
 
 **Available in other languages:** [English](README.en.md)
 
-## 🏗️ Composición del Proyecto
+##  Composición del Proyecto
 
 ```
 Lenguaje C++:     74.9%  | Lógica principal del compilador
@@ -25,7 +25,7 @@ Lex (Flex):        1.3%  | Análisis léxico
 Shell:             0.4%  | Scripts de compilación y ejecución
 ```
 
-## 🛠️ Herramientas y Dependencias
+##  Herramientas y Dependencias
 
 ### Requisitos del Sistema
 
@@ -78,7 +78,7 @@ Compiler/
 └── README.md                        # Este archivo
 ```
 
-## 🚀 Guía de Uso
+##  Guía de Uso
 
 ### 1. Preparación Inicial
 
@@ -143,7 +143,7 @@ Luego, recompile el compilador:
 ./compilar_x64.sh
 ```
 
-## 📝 Sintaxis Básica de Ç
+## Sintaxis Básica de Ç
 
 El repositorio incluye varios casos de prueba que demuestran la sintaxis:
 
@@ -155,19 +155,19 @@ El repositorio incluye varios casos de prueba que demuestran la sintaxis:
 
 Consulte estos archivos para ejemplos de la sintaxis soportada.
 
-## 🧪 Casos de Prueba
+##  Casos de Prueba
 
 El proyecto incluye una suite de casos de prueba que validan:
 
-- ✅ Análisis léxico y sintáctico
-- ✅ Verificación de tipos
-- ✅ Generación correcta de código
-- ✅ Manejo de errores semánticos
-- ✅ Operaciones básicas y avanzadas
+-  Análisis léxico y sintáctico
+-  Verificación de tipos
+-  Generación correcta de código
+-  Manejo de errores semánticos
+-  Operaciones básicas y avanzadas
 
 Los resultados de las ejecuciones se almacenan en el directorio `Output casos de prueba/`.
 
-## 🔧 Fases del Compilador
+##  Fases del Compilador
 
 ### Fase 1: Análisis Léxico
 Realizado por **Flex** mediante `lexico.l`, tokeniza el código fuente.
@@ -190,7 +190,7 @@ Generador x86_64 (`generador_x64.h`) produce código ensamblador NASM.
 ### Fase 7: Ensamblado y Enlazado
 Realizado por **NASM** y **GCC**, genera el ejecutable final.
 
-## 📊 Arquitectura de x86_64
+##  Arquitectura de x86_64
 
 El compilador genera código optimizado para la arquitectura x86_64 siguiendo las convenciones de llamada del sistema. El código generado es compatible con sistemas Linux/Unix basados en x86_64.
 
