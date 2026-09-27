@@ -1,4 +1,15 @@
-# Compiler for the Ç Language
+<table>
+  <tr>
+    <td>
+      <h1>Compiler for the Ç language </h1>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/f7b26b88-1027-42bb-a22d-e7b541603c5f"
+           width="80"
+           alt="C Logo">
+    </td>
+  </tr>
+</table>
 
 ## 📋 Project Description
 
