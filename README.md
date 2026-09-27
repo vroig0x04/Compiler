@@ -1,6 +1,7 @@
 # Compilador para el Lenguaje Ç
 
-## 📋 Descripción del Proyecto 
+## 📋 Descripción del Proyecto <img width="360" height="405" alt="C_Logo" src="https://github.com/user-attachments/assets/f7b26b88-1027-42bb-a22d-e7b541603c5f" />
+
 
 Este repositorio contiene la implementación completa de un compilador para **Ç**, un lenguaje imperativo de propósito específico diseñado para la arquitectura **x86_64**. El proyecto constituye una implementación educativa y funcional de un compilador moderno que integra análisis léxico, sintáctico, semántico y generación de código máquina nativo.
 
